@@ -1,8 +1,10 @@
 <div id="blogFrame">
-<h2>Hello :) (11/9/2025)</h2>
+<details>
+<summary>Hello :) (11/9/2025)</summary>
 <p>Hi! I'm Scrit and I like simple websites a lot. You can see from this website alone that everything is so simple and minimal, somepeople think its bad, I think its good. Oh well, each to there own -Scrit</p>
-</div>
-<div id="blogFrame">
-<h2>The nintendo DS (11/22/2025)</h2>
+</details>
+<details>
+<summary>The nintendo DS (11/22/2025)</summary>
 <p>The Nintendo DS is surprisingly powerful, with the ability to render 2048 triangles at once. And considering this was released at a time when 3Dgraphics were still quite basic, putting them all into one convenient nice little handheld was the thing that sent 3D graphics from basic to amazing.</p>
+</details>
 </div>
