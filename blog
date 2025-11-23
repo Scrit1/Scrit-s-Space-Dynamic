@@ -1,5 +1,5 @@
 <div id="blogFrame">
-<h2>Click <a style="color: yellow" href="https://scrit1.github.io/Scrit-s-Space/">here</a> for the <a style="color: yellow" href="https://scrit1.github.io/Scrit-s-Space/">main page</a> :)</h2>
+<h2>Click <a @media (prefers-color-scheme: dark) {style="color: yellow"} href="https://scrit1.github.io/Scrit-s-Space/">here</a> for the <a @media (prefers-color-scheme: dark) {style="color: yellow"} href="https://scrit1.github.io/Scrit-s-Space/">main page</a> :)</h2>
 <hr>
 <details>
 <summary>Hello :) (11/9/2025)</summary>
