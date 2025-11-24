@@ -1,19 +1,33 @@
 <div id="blogFrame">
-    <h2>Click <a @media (prefers-color-scheme: dark) {style="color: yellow" }
-            href="https://scrit1.github.io/Scrit-s-Space/">here</a> for the <a href="https://scrit1.github.io/Scrit-s-Space/">main page</a> :)</h2>
+    <h2>Click <a href="https://scrit1.github.io/Scrit-s-Space/">here</a> for the <a
+            href="https://scrit1.github.io/Scrit-s-Space/">main page</a> :)</h2>
     <hr>
     <details>
-        <summary>Hello :) (11/9/2025)</summary>
-        <p>Hi! I'm Scrit and I like simple websites a lot. You can see from this website alone that everything is so
-            simple and minimal, somepeople think its bad, I think its good. Oh well, each to there own -Scrit</p>
-    </details>
-    <details>
-        <summary>The nintendo DS (11/22/2025)</summary>
-        <p>The Nintendo DS is surprisingly powerful, with the ability to render 2048 triangles at once. And considering
-            this was released at a time when 3Dgraphics were still quite basic, putting them all into one convenient
-            nice little handheld was the thing that sent 3D graphics from basic to amazing.</p>
-        <img style="width: 10rem;height: 10rem;"
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Nintendo-DS-Fat-Blue.png">
+        <summary>Fixing bad programming (11/24/2025)</summary>
+        <p>This website has Awful programming, like <strong>awful</strong> <em>programming</em>. I want to fix that
+            sometime :/</p>
+        <p>This website has a bit of awful progremming in multiple diffrent places, for example the css is all over the
+            place and there are many useless things in the code. For example I put the css of this site in the loading
+            of my blog. <br>
+        <pre>
+    &lt;div = "blogframe"&gt;
+    &lt;style&gt;
+        a {
+            color: blue;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            a {
+                color: yellow
+            }
+        }
+    &lt;/style&gt;
+    &lt;/div&gt;
+</pre> Like what? This is awful, its loaded IN to the site, not from the static original site, this is so annoying for many reasons. I'm going to fix this, expect an update for this website soon :)))
+<br>
+<em>-Scrit</em>
+        </p>
+
     </details>
     <details>
         <summary>Google Snake (11/23/2025)</summary>
@@ -28,13 +42,30 @@
         <a href="https://www.youtube.com/watch?v=rLMMQKB28FU"><img style="width: 300px;"
                 src="https://i.ytimg.com/vi/rLMMQKB28FU/maxresdefault.jpg"></a>
     </details>
+    <details>
+        <summary>The nintendo DS (11/22/2025)</summary>
+        <p>The Nintendo DS is surprisingly powerful, with the ability to render 2048 triangles at once. And considering
+            this was released at a time when 3Dgraphics were still quite basic, putting them all into one convenient
+            nice little handheld was the thing that sent 3D graphics from basic to amazing.</p>
+        <img style="width: 10rem;height: 10rem;"
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Nintendo-DS-Fat-Blue.png">
+    </details>
+    <details>
+        <summary>Hello :) (11/9/2025)</summary>
+        <p>Hi! I'm Scrit and I like simple websites a lot. You can see from this website alone that everything is so
+            simple and minimal, somepeople think its bad, I think its good. Oh well, each to there own -Scrit</p>
+    </details>
+    <br>
+
+
     <style>
         a {
             color: blue;
         }
+
         @media (prefers-color-scheme: dark) {
             a {
-                color:yellow
+                color: yellow
             }
         }
     </style>
