@@ -53,17 +53,4 @@
             simple and minimal, somepeople think its bad, I think its good. Oh well, each to there own -Scrit</p>
     </details>
     <br>
-
-
-    <style>
-        a {
-            color: blue;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            a {
-                color: yellow
-            }
-        }
-    </style>
 </div>
