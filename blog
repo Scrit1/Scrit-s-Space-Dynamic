@@ -1,22 +1,41 @@
 <div id="blogFrame">
-<h2>Click <a @media (prefers-color-scheme: dark) {style="color: yellow"} href="https://scrit1.github.io/Scrit-s-Space/">here</a> for the <a @media (prefers-color-scheme: dark) {style="color: yellow"} href="https://scrit1.github.io/Scrit-s-Space/">main page</a> :)</h2>
-<hr>
-<details>
-<summary>Hello :) (11/9/2025)</summary>
-<p>Hi! I'm Scrit and I like simple websites a lot. You can see from this website alone that everything is so simple and minimal, somepeople think its bad, I think its good. Oh well, each to there own -Scrit</p>
-</details>
-<details>
-<summary>The nintendo DS (11/22/2025)</summary>
-<p>The Nintendo DS is surprisingly powerful, with the ability to render 2048 triangles at once. And considering this was released at a time when 3Dgraphics were still quite basic, putting them all into one convenient nice little handheld was the thing that sent 3D graphics from basic to amazing.</p>
-<img style="width: 10rem;height: 10rem;" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Nintendo-DS-Fat-Blue.png">
-</details>
-<details>
-<summary>Google Snake (11/23/2025)</summary>
-<p>Google snake. Im sure you heard of it before, its that cute little game that exists if you search up “sanke” on the google engine, if you have NOT seen it, I actually have it <a href="https://www.google.com/fbx?fbx=snake_arcade"> right here</a> for you to view :D.
-<br>
-Anyways, today i descivored that theres a whole community behind the snake game, and I’mm quite shocked on the things the’ve done. Its amazing how they managed to beat the game on nearly all the modes, And thats really cool. Anyways, thanks for reading.
-</p>
-<a href="https://www.youtube.com/watch?v=rLMMQKB28FU"><img style="width: 300px;"src="https://i.ytimg.com/vi/rLMMQKB28FU/maxresdefault.jpg"></a>
-</details>
+    <h2>Click <a @media (prefers-color-scheme: dark) {style="color: yellow" }
+            href="https://scrit1.github.io/Scrit-s-Space/">here</a> for the <a href="https://scrit1.github.io/Scrit-s-Space/">main page</a> :)</h2>
+    <hr>
+    <details>
+        <summary>Hello :) (11/9/2025)</summary>
+        <p>Hi! I'm Scrit and I like simple websites a lot. You can see from this website alone that everything is so
+            simple and minimal, somepeople think its bad, I think its good. Oh well, each to there own -Scrit</p>
+    </details>
+    <details>
+        <summary>The nintendo DS (11/22/2025)</summary>
+        <p>The Nintendo DS is surprisingly powerful, with the ability to render 2048 triangles at once. And considering
+            this was released at a time when 3Dgraphics were still quite basic, putting them all into one convenient
+            nice little handheld was the thing that sent 3D graphics from basic to amazing.</p>
+        <img style="width: 10rem;height: 10rem;"
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Nintendo-DS-Fat-Blue.png">
+    </details>
+    <details>
+        <summary>Google Snake (11/23/2025)</summary>
+        <p>Google snake. Im sure you heard of it before, its that cute little game that exists if you search up “sanke”
+            on the google engine, if you have NOT seen it, I actually have it <a
+                href="https://www.google.com/fbx?fbx=snake_arcade"> right here</a> for you to view :D.
+            <br>
+            Anyways, today i descivored that theres a whole community behind the snake game, and I’mm quite shocked on
+            the things the’ve done. Its amazing how they managed to beat the game on nearly all the modes, And thats
+            really cool. Anyways, thanks for reading.
+        </p>
+        <a href="https://www.youtube.com/watch?v=rLMMQKB28FU"><img style="width: 300px;"
+                src="https://i.ytimg.com/vi/rLMMQKB28FU/maxresdefault.jpg"></a>
+    </details>
+    <style>
+        a {
+            color: blue;
+        }
+        @media (prefers-color-scheme: dark) {
+            a {
+                color:yellow
+            }
+        }
+    </style>
 </div>
-
