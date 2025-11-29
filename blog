@@ -1,5 +1,27 @@
 <div id="blogFrame">
     <details>
+        <summary>CSS wastes a lot of space, The 1kb club (11/29/25)</summary>
+        <br>
+        <em>CSS wastes a lot of space</em>
+        <p>CSS is  a prgramming laguage, and nonetheless, is VERY wasteful on space, it takes up loads of bytes to load somthyhing, for example, centering a div takes this:
+        </p>
+        <pre>
+            #idk {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        </pre>
+        <p>Wow, thats innecficent, now sure it is readable, but honselty, css should be more effecine tas a languge, as trying to programming with low amounts of data with CSS is simply a impossible thing to do. </p>
+        <em>The 1kb club</em><br>
+        <strong>I kinda want to do 2 mini articles, so this is what I'm going to do.</strong>
+        <p>The 1kb club tests the ABSOLUTE limits of storing data with HTML, the link to it is <a href="https://1kb.club">this</a></p>
+        <p>As the name suggests, you need to create a webpage in 1 kilobyte of space, 1000 bytes, or 1000 8 bit characters. This restriction is extrmely hard to program in, as mentioned in the top, css and html tags really limit how much data you can put in. The 1kb club is a really cool website, and you should probaly check it out, along with the <a href="https://1mb.club/">1mb club</a> and the <a href="https://250kb.club/">256kb club</a>.<br>
+        </p>
+        <em>-scrit</em>
+    </details>
+    <details>
         <summary><em>The 2025 Tai Po apartment complex fire</em> (11/28/25)</summary>
         <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Buildings_of_Taipo_apartment_fires.jpg/330px-Buildings_of_Taipo_apartment_fires.jpg">
