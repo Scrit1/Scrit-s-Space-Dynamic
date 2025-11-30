@@ -1,4 +1,27 @@
 <div id="blogFrame">
+<details>
+<summary>XOR textures are cool (11/30/25)</summary>
+<p>The xor texture is a really cool texture that takes minimal effort to make, infact, you can even fit it into 128 bytes. Heres a quick demo of what an xor texture looks like:</p>
+    <canvas id="xorcanvas" width="256" height="256"></canvas>
+
+    <script>
+        const canvas = document.getElementById('xorcanvas');
+        const ctx = canvas.getContext('2d');
+        const w = canvas.width;
+        const h = canvas.height;
+        for (let y = 0; y < h; y++) {
+            for (let x = 0; x < w; x++) {
+                let c = x ^ y 
+                ctx.fillStyle = `rgb(${c}, ${c}, ${c})`; // Set color
+                ctx.fillRect(x, y, 1, 1); 
+
+            }
+        }
+</script>
+        <p>Its just a cool default texture, you can read about it in this <a href="https://lodev.org/cgtutor/xortexture.html">cool article</a> i found :)</p>
+        <em>-scrit</em>
+
+</details>
     <details>
         <summary>CSS wastes a lot of space, The 1kb club (11/29/25)</summary>
         <br>
