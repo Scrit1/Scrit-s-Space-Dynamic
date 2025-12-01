@@ -1,5 +1,10 @@
 <div id="blogFrame">
 <details>
+<summary>Big projct soon (12/1/25)</summary>
+<p>Welp yea, big project soon, hopefully, so i dont really have much to say today :(, bye</p>
+<em>-scrit</em>
+<details>
+<details>
 <summary>XOR textures are cool (11/30/25)</summary>
 <p>The xor texture is a really cool texture that takes minimal effort to make, infact, you can even fit it into 128 bytes. Heres a quick demo of what an xor texture looks like:</p>
     <img src="https://lodev.org/cgtutor/images/xortexture.gif">
